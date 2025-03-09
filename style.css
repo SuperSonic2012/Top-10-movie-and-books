@@ -1,5 +1,5 @@
 body {
-   background-color: rgb(149, 230, 255);
+   background-image: url(background.jpg);
 }
 
 h1{
@@ -13,8 +13,6 @@ h1{
 p{
    color:#1b1b1c;
    text-align: justify;
-   animation-name: efect2;
-   animation-duration: 1s;
    text-indent: 5%;
    font-family: Arial, Helvetica, sans-serif;
    font-size: 25px;
