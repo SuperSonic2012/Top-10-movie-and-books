@@ -1,3 +1,40 @@
 body {
-   background-color: #8dcdf8;
+   background-color: rgb(149, 230, 255);
+}
+
+h1{
+   color: #1b1b1c;
+   text-align: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: bold;
+   font-size: 40px;
+}
+
+p{
+   color:#1b1b1c;
+   text-align: justify;
+   animation-name: efect2;
+   animation-duration: 1s;
+   text-indent: 5%;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 25px;
+   font-weight: normal;
+   margin-left: 100px;
+   margin-right: 100px;
+   margin-top: 5px;
+}
+
+.img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   justify-content: center;
+}
+
+h2{
+   color: #1b1b1c;
+   text-align: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: bold;
+   font-size: 60px;
 }
