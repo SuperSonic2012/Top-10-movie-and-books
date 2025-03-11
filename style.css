@@ -19,14 +19,13 @@ p{
    font-weight: normal;
    margin-left: 100px;
    margin-right: 100px;
-   margin-top: 5px;
 }
 
-.img{
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   justify-content: center;
+.img {
+   display: flex;
+   margin-left: 50px;
+   margin-right: 100px;
+   justify-content: space-between; 
 }
 
 h2{
@@ -35,4 +34,72 @@ h2{
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    font-weight: bold;
    font-size: 60px;
+}
+
+.film{
+   display: flex;
+   list-style: none;
+   gap: 20px;
+}
+
+.film li{
+   width: 100%;
+   max-width: 350px;
+   list-style: none;
+   display: flex;
+   transition: 0.4s;
+}
+
+.film li:hover{
+   transform: scale(0.95);
+}
+
+.film li a{
+   width: 100%;
+   text-decoration: none;
+   display: flex;
+   flex-direction: column;
+   padding: 10px;
+   background-color: #dddddd;
+   text-align: center;
+}
+
+.film li a img{
+   display: block;
+   width: 100%;
+   height: auto;
+}
+
+.book{
+   display: flex;
+   list-style: none;
+   gap: 20px;
+}
+
+.book li{
+   width: 100%;
+   max-width: 350px;
+   list-style: none;
+   display: flex;
+   transition: 0.4s;
+}
+
+.book li:hover{
+   transform: scale(0.95);
+}
+
+.book li a{
+   width: 100%;
+   text-decoration: none;
+   display: flex;
+   flex-direction: column;
+   padding: 10px;
+   background-color: #dddddd;
+   text-align: center;
+}
+
+.book li a img{
+   display: block;
+   width: 100%;
+   height: auto;
 }
